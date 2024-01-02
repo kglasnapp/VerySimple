@@ -1,0 +1,48 @@
+This device is on the roboRIO's native CAN Bus
+Device NOT ENABLED!
+Motor Type: Brushed
+Mode:0:PercentOutput | Output:0.00% [0.00 V]
+Motor Leads: M+: 0 V    M-: 0 V
+Brake during neutral
+VCompEn:F CurrLimited:F
+
+PID0 (primary)
+  Feedback: Quad/MagEnc(rel)
+  Pos: -71u   |   Vel: 0u/100ms
+  Slot Select: 0
+  Err: 0 u   |   iacc: 0 u-ms   |   derr: 0 u/ms
+
+PID1 (aux)
+  Feedback: Quad/MagEnc(rel)
+  Pos: -71u   |   Vel: 0u/100ms
+  Slot Select: 0
+  Err: 0 u   |   iacc: 0 u-ms   |   derr: 0 u/ms
+
+Quad/MagEnc(rel)
+  Pos: -71u   |   Vel: 0u/100ms
+  Pins: A: 0   |   B: 1   |   Idx: 1   |    IdxEdges:0
+
+Analog: Pos: 107u   |   Vel: -1u/100ms   |   ADC:107   |   0.3 V
+
+PulseWidth/MagEnc(abs)
+  Pos: 0u   |   Vel: 0u/100ms
+  Period: 0.0 us
+  Velocity(if Tachometer): 0 u/100ms | 0.00 RPM
+
+Limit Switches
+  Forward:Open
+  Reverse:Open
+
+Auto Zero Position Feature are disabled
+
+I-Supply: 0.13A    |    Bus: 12.55V    |    Temp: 30C
+
+Configurations
+  Nominal Output: [0.00, 0.00]   |   Peak Output: [0.00, 0.00]
+
+FRC Locked:1
+
+"Blink / Clear Faults" clears sticky faults.
+
+Build:Dec 15 2023 22:35:19
+Press "Refresh" to close.
